@@ -1,0 +1,47 @@
+.btn {
+    background: #9C4DF4;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border: 1px solid #9C4DF4;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #9C4DF4;
+        cursor: pointer;
+    }
+}
+
+.btn-2 {
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9C4DF4;
+
+    background: #FFFFFF;
+
+    padding: 10px 15px;
+    border: 1px solid #9C4DF4;
+
+    &:hover {
+        background: #9C4DF4;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+.display-b{
+    display: block;
+}
+.display-n{
+    display: none;
+}
+

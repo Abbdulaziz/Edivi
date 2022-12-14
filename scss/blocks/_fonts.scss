@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('../../fonts/metropolis.bold.otf');
+@import url('../../fonts/metropolis.medium.otf');
+@import url('../../fonts/metropolis.regular.otf');
+@import url('../../fonts/metropolis.semi-bold.otf');
+@import url('../../fonts/AirbnbCereal_W_Md.otf');
+
+h1 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    color: #0A033C;
+}
+
+h2 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #0A033C;
+}
+
+h3 {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #0A033C;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+p {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5D5A6F;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 50px;
+        color: #0A033C;
+    }
+
+    h2 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+        color: #0A033C;
+    }
+
+    h3 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+        color: #0A033C;
+    }
+
+    h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    p {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+    h1 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #0A033C;
+    }
+
+    h2 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: #0A033C;
+    }
+
+    h3 {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+        color: #0A033C;
+    }
+
+    h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    p {
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #5D5A6F;
+    }
+
+}

@@ -1,0 +1,96 @@
+header{
+    .nav{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        justify-content: space-between;
+        &__ul{
+            display: flex;
+            width: 58%;
+            justify-content: space-between;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                color: #0A033C;
+            }
+        }
+        &__btn{
+            button{
+                padding: 5px;
+                background-color: #f5eff8;
+                border: 1px solid #f5eff8;
+                margin: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+    i{
+        display: none ;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    header{
+        .nav{
+            display: flex;
+            align-items: center;
+            height: 70px;
+            width: 100%;
+            justify-content: space-between;
+            &__ul{
+                display: none;
+                a{
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #0A033C;
+                }
+            }
+            &__btn{
+                display: none;
+                button{
+                    padding: 5px;
+                    background-color: #f5eff8;
+                    border: 1px solid #f5eff8;
+                    margin: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    i{
+        display: block !important;
+        font-size: 36px;
+        cursor: pointer;
+    }
+    .manu{
+        position: absolute;
+        top:-175px;
+        right: 0;
+        display: block;
+        background-color: #ffffff;
+        z-index: 999;
+        
+        &__ul{
+            margin: 25px ;
+            list-style-type: none;
+            &__li{
+                &-link{
+                    text-decoration: none;
+                    color: #0A033C;
+                }
+            }
+            
+        }
+    }
+    .top{
+        top: 55px;
+    }
+  }

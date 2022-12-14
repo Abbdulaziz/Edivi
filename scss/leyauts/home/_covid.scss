@@ -1,0 +1,41 @@
+.covid {
+    margin: 35px 0;
+    background: #EDE9F2;
+    border-radius: 20px;
+    // display: flex;
+    align-items: center;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+
+    &__left {
+        padding-left: 35px;
+
+        span {
+            font-family: 'Metropolis';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            background: #E4E2F4;
+            border-radius: 5px;
+            color: #9C4DF4;
+            padding: 10px 20px;
+        }
+
+        h2 {
+            margin: 25px 0;
+        }
+
+        button {
+            margin: 25px 0;
+        }
+    }
+
+    &__right {
+        img {
+            width: 100%;
+        }
+    }
+
+}

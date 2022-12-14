@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stayles/stayle.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="login">
+                    <div class="login__left">
+                        <img src="./img/Logo.png" alt="logo">
+                        <h2>Welcome to Eduvi Online Learning Platform</h2>
+                        <img src="./img/left.png" alt="sign-in-left">
+                    </div>
+                    <form id="sign-up">
+                        <h2 class="err"></h2>
+                        <div class="google">
+                            <div class="google-icon">
+                                <img class="google-icon-img"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+                                <p class="btn-text"><b>Sign in with google</b></p>
+                            </div>
+                            <p>--- Or signup with your email ---</p>
+                        </div>
+                        <label for="user">User Name</label>
+                        <input type="text" placeholder="Enter User Name" name="name" id="_req" required>
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter  email" name="email" required>
+
+                        <label for="pasword">Pasword</label>
+                        <input type="text" id="pasword" placeholder="Enter pasword" name="pasword" required>
+
+                        <button type="submit">sign in</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+</body>
+
+<script src="./utilist/utilis.js"></script>
+<script src="./js/sign_up.js"></script>
+
+</html>

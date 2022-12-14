@@ -1,0 +1,261 @@
+.grow {
+    // display: flex;
+    width: 100%;
+    align-items: center;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+
+    &__left {
+        // width: 50%;
+        margin-top: 45px;
+
+        span {
+            font-family: 'Metropolis';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            color: #FF6652;
+            background: #FFFFFF;
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+
+        h1 {
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .grow-p {
+            max-width: 500px;
+            margin-bottom: 25px;
+        }
+
+        form {
+            align-items: center;
+
+            fieldset {
+                background-color: #FFFFFF;
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                max-width: 450px;
+                display: flex;
+                padding: 5px !important;
+
+                select {
+                    padding: 5px;
+                    border: 1px solid #FFFFFF;
+                }
+
+                input {
+                    min-width: 100px;
+                    border: 1px solid #FFFFFF;
+                    padding: 5px;
+
+                    &[type="search"] {
+                        border: none;
+                        outline: none;
+
+                    }
+                }
+
+                button {
+                    border: 1px solid #FFFFFF;
+                    background: #9C4DF4;
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+
+                    i {
+                        padding: 0 5px;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    &__right {
+        // width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .grow {
+        &__left {
+            form {
+                align-items: center;
+
+                fieldset {
+                    background-color: #FFFFFF;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 10px;
+                    width: 500px;
+                    display: flex;
+                    padding: 5px !important;
+
+
+
+
+                    select {
+                        padding: 5px;
+                        border: 1px solid #FFFFFF;
+                    }
+
+                    input {
+                        min-width: 100px;
+                        border: 1px solid #FFFFFF;
+                        padding: 5px;
+
+                        &[type="search"] {
+                            border: none;
+                            outline: none;
+
+                        }
+                    }
+
+                    button {
+                        border: 1px solid #FFFFFF;
+                        background: #9C4DF4;
+                        border-radius: 10px;
+                        padding: 10px 20px;
+                        color: #FFFFFF;
+                        cursor: pointer;
+
+                        i {
+                            padding: 0 5px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .grow {
+        &__left {
+            form {
+                align-items: center;
+
+                fieldset {
+                    background-color: #FFFFFF;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 10px;
+                    width: 500px;
+                    display: flex;
+                    padding: 5px !important;
+
+
+
+
+                    select {
+                        padding: 5px;
+                        border: 1px solid #FFFFFF;
+                    }
+
+                    input {
+                        min-width: 50px;
+                        border: 1px solid #FFFFFF;
+                        padding: 5px;
+
+                        &[type="search"] {
+                            border: none;
+                            outline: none;
+
+                        }
+                    }
+
+                    button {
+                        border: 1px solid #FFFFFF;
+                        background: #9C4DF4;
+                        border-radius: 10px;
+                        padding: 5px 10px;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        display: flex;
+
+                        i {
+                            padding: 0;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 568px) {
+    .grow {
+        &__left {
+            form {
+                align-items: center;
+                width: 90%;
+                height: 200px;
+                text-align: center;
+
+                fieldset {
+                    background-color:#efebf5;
+                    // border: 1px solid #FFFFFF;
+                    border-radius: 10px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    display: flex;
+
+
+                    select {
+                        width: 100%;
+                        padding: 15px;
+                        border: 1px solid #FFFFFF;
+                    }
+
+                    input {
+                        width: 100%;
+                        border: 1px solid #FFFFFF;
+                        padding: 15px;
+                        margin: 15px 0;
+
+                        &[type="search"] {
+                            border: none;
+                            outline: none;
+
+                        }
+                    }
+
+                    button {
+                        width: 100%;
+                        border: 1px solid #FFFFFF;
+                        background: #9C4DF4;
+                        border-radius: 10px;
+                        padding: 15px;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+
+                        i {
+                            padding: 0;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
