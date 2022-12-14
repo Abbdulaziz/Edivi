@@ -1368,6 +1368,7 @@ header i {
   border: 1px solid #9C4DF4;
   color: #FFFFFF;
   width: 370px;
+  margin: 5px;
 }
 .login form button:hover {
   background: #FFFFFF;
